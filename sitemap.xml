@@ -6,37 +6,4 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://aspire.github.io/index.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://aspire.github.io/style.css</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/main.js</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/processor.js</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/GCash.jpg</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/AspireCover.png</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/Aspire.png</loc>
-  </url>
-  
-  <url>
-    <loc>https://aspire.github.io/ads.txt</loc>
-  </url>
-  
 </urlset>
