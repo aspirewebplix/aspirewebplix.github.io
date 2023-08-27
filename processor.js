@@ -211,6 +211,7 @@ function submit() {
         }
 
         //------------------
-        rec.innerHTML += br + br + br + f3 + "This is just a recommendation and it is entirely up to you if you would follow it. <br><br> To generate again, refresh or reload this page." + fx;
+        rec.innerHTML += br + br + br + f3 + "This is just a recommendation and it is entirely up to you if you would follow it." + fx + br;
+        rec.innerHTML += '<div class="center-all"><button onclick="location.reload();" class="font2" id="generate-again">Generate Again</button></div>';
     }
 }
