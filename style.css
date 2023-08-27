@@ -25,7 +25,7 @@ input[type="checkbox"], input[type="radio"] {
     width:20px;
 }
 
-#submit {
+#submit, #generate-again {
     filter:brightness(98%);
     margin:1%;
     display: inline-block;
@@ -39,12 +39,12 @@ input[type="checkbox"], input[type="radio"] {
     transition: 0.5s;
 }
 
-#submit:hover {
+#submit:hover, #generate-again:hover {
     filter:brightness(100%);
     transform: scale(1.05);
 }
 
-#submit:active {
+#submit:active, #generate-again:active {
     filter:brightness(98%);
     transform: scale(0.95);
 }
