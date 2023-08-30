@@ -8,14 +8,6 @@ body {
     line-height:1.0;
 }
 
-.ad-zone{
-    height: 1px;
-    width: 1px;
-    position: absolute;
-    left: -999em;
-    top: -999em
-}
-
 #recommendation-area {
     display:none;
     padding:4%;
