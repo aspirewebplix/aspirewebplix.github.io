@@ -4,6 +4,18 @@ var topDisplay = "";
 
 // var form = document.getElementById("form"); // this variable is already declared in the startup() function
 
+function closefixedad(event) {
+    event.stopPropagation();
+    document.getElementById('fixed-ads').style.display = "none";
+}
+
+function handleAdClick(event) {
+    if (event.target.classList.contains('close-ad')) {
+        return;
+    }
+    window.location.href = "https://play.google.com/store/apps/details?id=com.khianvictory.clinx";
+}
+
 function clearForm() {
     form.innerHTML = "";
 }
@@ -27,6 +39,7 @@ function reminder() {
 
 function close_reminder () {
     document.getElementById("reminder").style.display = "none";
+    document.getElementById("fixed-ads").style.display = "block";
     unblur();
 }
 
