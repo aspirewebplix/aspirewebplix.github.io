@@ -134,6 +134,7 @@ input[type="checkbox"], input[type="radio"] {
 
 #logo-cover-photo-section {
     width:100%;
+    background:black;
 }
 
 #logo-cover-photo {
