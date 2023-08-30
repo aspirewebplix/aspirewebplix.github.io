@@ -17,26 +17,6 @@ function unblur() {
     topDisplay = "";
 }
 
-function checkAdBlocker() {
-    var adZoneElement = document.querySelector('.ad-zone');
-  
-    if (adZoneElement) {
-      var elementComputedStyle = window.getComputedStyle(adZoneElement);
-      var elementHeight = parseFloat(elementComputedStyle.getPropertyValue('height'));
-      var elementDisplay = elementComputedStyle.getPropertyValue('display');
-  
-      if (elementHeight === 0 || elementDisplay === 'none') {
-        return "Ad blocker is active.";
-        alert("OOPS! Adblocker detected, please disable it to use our service thank you :)");
-        location.reload();
-      } else {
-        return "Ad blocker is not active.";
-      }
-    } else {
-      return "Ad zone element not found.";
-    }
-}
-
 function reminder() {
     if (topDisplay == "") {
         topDisplay = "reminder";
@@ -99,7 +79,6 @@ function get_started() {
 
 function startup() {
     document.getElementById("every-display").style.display = "block";
-    checkAdBlocker();
     reminder();
     var form = document.getElementById("form"); // i initially declare this outside the function but it doesn't work
 }
