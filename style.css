@@ -9,8 +9,11 @@ body {
 }
 
 .ad-zone{
-    height: 10px;
-    position:fixed;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    left: -999em;
+    top: -999em
 }
 
 #recommendation-area {
