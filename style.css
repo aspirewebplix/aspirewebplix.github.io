@@ -197,6 +197,42 @@ input[type="checkbox"], input[type="radio"] {
     text-decoration:none;
 }
 
+#fixed-ads {
+    display:none;
+    position: fixed;
+    bottom: 2vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 1%;
+    width: 30%;
+    height: 30px;
+    background-image: url("https://play-lh.googleusercontent.com/AEBiIlcW_6yaKg6MC2APScLO4vGGxxAS35G5fefVViAUCIZrOC1oUOdfVB-ttyEk8g=w416-h235-rw");
+    background-size: cover;
+    background-position: center 25%;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border: solid 1px black;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index:20;
+    cursor:pointer;
+}
+
+.close-ad {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    margin-top:-0.7%;
+    margin-right:-0.3%;
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
     #privacy, #terms, #reminder, #donate {
         width: 90vw;
@@ -209,6 +245,9 @@ input[type="checkbox"], input[type="radio"] {
     #get-started:active {
         background-color: #6B73ED;
         transform: scale(1.05);
+    }
+    #fixed-ads {
+        width: 50%;
     }
 }
 
