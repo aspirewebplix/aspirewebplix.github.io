@@ -8,6 +8,16 @@ body {
     line-height:1.0;
 }
 
+#noadblock {
+    float:left;
+    position:absolute;
+    z-index:-5;
+    color:white;
+}
+
+#secondary-display {
+}
+
 #recommendation-area {
     display:none;
     padding:4%;
