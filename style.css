@@ -8,6 +8,10 @@ body {
     line-height:1.0;
 }
 
+.fixed-full-width {
+	width:100vw;
+}
+
 #noadblock {
     float:left;
     position:absolute;
