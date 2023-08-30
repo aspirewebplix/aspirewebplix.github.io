@@ -212,6 +212,14 @@ input[type="checkbox"], input[type="radio"] {
 Below are general items
 */
 
+.p2-margin {
+	padding:2%;
+}
+
+.p2-padding {
+	margin:2%;
+}
+
 .v-spacing {
     line-height:1.5;
 }
