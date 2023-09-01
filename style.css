@@ -12,6 +12,10 @@ body {
 	width:100vw;
 }
 
+.white-only {
+	background:white;
+}
+
 .pc-only {
 	display:block;
 }
