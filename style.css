@@ -12,6 +12,10 @@ body {
 	width:100vw;
 }
 
+.pc-only {
+	display:block;
+}
+
 #noadblock {
     float:left;
     position:absolute;
@@ -249,6 +253,9 @@ input[type="checkbox"], input[type="radio"] {
     #fixed-ads {
         width: 50%;
     }
+	.pc-only {
+		display:none;
+	}
 }
 
 /*
