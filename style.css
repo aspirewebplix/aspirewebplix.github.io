@@ -12,6 +12,11 @@ body {
 	width:100vw;
 }
 
+.data-photos {
+	width:100%;
+	display:flex;
+}
+
 .white-only {
 	background:white;
 }
@@ -113,6 +118,12 @@ input[type="checkbox"], input[type="radio"] {
     color:white;
 }
 
+.black-bg {
+    padding:4%;
+    background:black;
+    color:white;
+}
+
 #container {
     line-height:1.5;
 }
@@ -148,6 +159,7 @@ input[type="checkbox"], input[type="radio"] {
 
 #logo-cover-photo-section {
     width:100%;
+	display:flex;
 }
 
 #logo-cover-photo {
